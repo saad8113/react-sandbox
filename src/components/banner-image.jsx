@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-import bannerImage from "../assets/bannerImage.jpg";
+import bannerImage from "../assets/bannerImage1.jpg";
 import "../App.css";
 
 const BannerImage = () => {
   return (
-    <Container fluid>
+    <Container>
       <img id="banner" src={bannerImage} alt="Banner" />
     </Container>
   );

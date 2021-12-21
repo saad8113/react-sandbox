@@ -2,7 +2,15 @@
   text-align: center;
 }
 
+.container {
+  width: 80%;
+}
+
 #banner {
-  width: inherit;
+  width: 100%;
   height: 500px;
+}
+
+#career {
+  text-align: left;
 }

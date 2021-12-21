@@ -1,9 +1,9 @@
 import React from "react";
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Container, Col } from "react-bootstrap";
 
 import logo from "../assets/logo.png";
 
-const NavBar = () => {
+const Footer = () => {
   return (
     <Navbar bg="secondary">
       <Container>
@@ -16,9 +16,21 @@ const NavBar = () => {
             alt="React Bootstrap logo"
           />
         </Navbar.Brand>
+        <Col>
+          <p>0311-0265410</p>
+        </Col>
+        <Col>
+          <p>Mc-69, Street no.2, Green town, Karachi</p>
+        </Col>
+        <Col>
+          <p>saad23december@gmail.com</p>
+        </Col>
+        <Col>
+          <p>www.linkedin.com/in/Saad-UR-Rehman23</p>
+        </Col>
       </Container>
     </Navbar>
   );
 };
 
-export default NavBar;
+export default Footer;
